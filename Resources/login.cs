@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CasabuenaApartment
+namespace CasabuenaApartment.Resources
 {
-    public partial class Form2 : Form
+    public partial class login : Form
     {
-        public Form2()
+        public login()
         {
             InitializeComponent();
         }
