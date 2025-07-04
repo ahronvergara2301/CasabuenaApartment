@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace CasabuenaApartment
 {
-    public partial class frmTenantRecord : Form
+    public partial class FrmTenantRecord2 : Form
     {
-        public frmTenantRecord()
+        public FrmTenantRecord2()
         {
             InitializeComponent();
         }
-
-        
     }
 }
