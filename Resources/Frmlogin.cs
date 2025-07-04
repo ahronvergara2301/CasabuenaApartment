@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CasabuenaApartment.Resources
 {
-    public partial class login : Form
+    public partial class Frmlogin : Form
     {
-        public login()
+        public Frmlogin()
         {
             InitializeComponent();
         }
