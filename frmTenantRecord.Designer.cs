@@ -38,7 +38,7 @@
             // ddfdsfs
             // 
             this.ddfdsfs.Location = new System.Drawing.Point(16, 15);
-            this.ddfdsfs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ddfdsfs.Margin = new System.Windows.Forms.Padding(4);
             this.ddfdsfs.Name = "ddfdsfs";
             this.ddfdsfs.Size = new System.Drawing.Size(445, 218);
             this.ddfdsfs.TabIndex = 0;
@@ -48,7 +48,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(605, 321);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(445, 218);
             this.button1.TabIndex = 1;
@@ -58,7 +58,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(448, 50);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(445, 218);
             this.button2.TabIndex = 2;
@@ -69,19 +69,19 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(189, 357);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(345, 22);
             this.textBox1.TabIndex = 3;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(280, 276);
+            this.button3.Location = new System.Drawing.Point(41, 301);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(445, 218);
             this.button3.TabIndex = 4;
-            this.button3.Text = "THIS IS A BUTTON";
+            this.button3.Text = "THIS ";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // frmTenantRecord
@@ -94,7 +94,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ddfdsfs);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmTenantRecord";
             this.Text = "frmTenantRecord";
             this.ResumeLayout(false);
