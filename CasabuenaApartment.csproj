@@ -92,5 +92,44 @@
   <ItemGroup>
     <None Include="Resources\picmagic_1751541131310.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\513072068_3732121123753107_1732665633413870218_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letter C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maintenanc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picmagic_17515411313101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file maintenance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
