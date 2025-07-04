@@ -40,6 +40,7 @@
             this.btAddtenant = new System.Windows.Forms.Button();
             this.btPrevious = new System.Windows.Forms.Button();
             this.btNext = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -164,12 +165,23 @@
             this.btNext.Text = "Next";
             this.btNext.UseVisualStyleBackColor = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(708, 589);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 26);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Month";
+            // 
             // FrmTenantRecord2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1067, 637);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btNext);
             this.Controls.Add(this.btPrevious);
             this.Controls.Add(this.btAddtenant);
@@ -206,5 +218,6 @@
         private System.Windows.Forms.Button btAddtenant;
         private System.Windows.Forms.Button btPrevious;
         private System.Windows.Forms.Button btNext;
+        private System.Windows.Forms.Label label4;
     }
 }
