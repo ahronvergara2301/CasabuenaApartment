@@ -10,11 +10,15 @@ using System.Windows.Forms;
 
 namespace CasabuenaApartment
 {
-    public partial class Form2 : Form
+    public partial class frmLogin : Form
     {
-        public Form2()
+        public frmLogin()
         {
             InitializeComponent();
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
         }
     }
 }
