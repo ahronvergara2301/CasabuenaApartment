@@ -17,6 +17,9 @@ namespace CasabuenaApartment
             InitializeComponent();
         }
 
-    
+        private void frmRentPayments_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

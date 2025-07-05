@@ -57,7 +57,7 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.toUtilityBills = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
@@ -322,20 +322,21 @@
             this.guna2TextBox2.Size = new System.Drawing.Size(283, 34);
             this.guna2TextBox2.TabIndex = 49;
             // 
-            // guna2Button1
+            // toUtilityBills
             // 
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(988, 107);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(206, 48);
-            this.guna2Button1.TabIndex = 48;
-            this.guna2Button1.Text = "Utility Bills";
+            this.toUtilityBills.BorderRadius = 10;
+            this.toUtilityBills.CheckedState.Parent = this.toUtilityBills;
+            this.toUtilityBills.CustomImages.Parent = this.toUtilityBills;
+            this.toUtilityBills.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toUtilityBills.ForeColor = System.Drawing.Color.White;
+            this.toUtilityBills.HoverState.Parent = this.toUtilityBills;
+            this.toUtilityBills.Location = new System.Drawing.Point(988, 107);
+            this.toUtilityBills.Name = "toUtilityBills";
+            this.toUtilityBills.ShadowDecoration.Parent = this.toUtilityBills;
+            this.toUtilityBills.Size = new System.Drawing.Size(206, 48);
+            this.toUtilityBills.TabIndex = 48;
+            this.toUtilityBills.Text = "Utility Bills";
+            this.toUtilityBills.Click += new System.EventHandler(this.toUtilityBills_Click);
             // 
             // guna2TextBox3
             // 
@@ -400,7 +401,7 @@
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.guna2TextBox2);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.toUtilityBills);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comboBox1);
@@ -413,6 +414,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmUtilityBills";
             this.Text = "frmUtilityBills";
+            this.Load += new System.EventHandler(this.frmUtilityBills_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -446,7 +448,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private System.Windows.Forms.ComboBox comboBox3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button toUtilityBills;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
     }
