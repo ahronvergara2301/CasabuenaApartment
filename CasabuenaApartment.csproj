@@ -75,6 +75,9 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRentPayments.resx">
+      <DependentUpon>frmRentPayments.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmTenantRecord.resx">
       <DependentUpon>frmTenantRecord.cs</DependentUpon>
     </EmbeddedResource>
