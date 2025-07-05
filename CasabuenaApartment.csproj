@@ -64,6 +64,12 @@
     <Compile Include="frmTenantRecord.Designer.cs">
       <DependentUpon>frmTenantRecord.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUtilityBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUtilityBills.Designer.cs">
+      <DependentUpon>frmUtilityBills.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form2.resx">
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTenantRecord.resx">
       <DependentUpon>frmTenantRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUtilityBills.resx">
+      <DependentUpon>frmUtilityBills.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
