@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dfsf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dfsf.Designer.cs">
+      <DependentUpon>dfsf.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
