@@ -17,6 +17,6 @@ namespace CasabuenaApartment
             InitializeComponent();
         }
 
-      
+    
     }
 }
