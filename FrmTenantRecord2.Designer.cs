@@ -36,11 +36,11 @@
             this.cbFilter = new System.Windows.Forms.ComboBox();
             this.tbSearch = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btAddtenant = new System.Windows.Forms.Button();
             this.btPrevious = new System.Windows.Forms.Button();
             this.btNext = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -80,7 +80,7 @@
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(20, 146);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(227, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(247, 22);
             this.dateTimePicker1.TabIndex = 3;
             // 
             // label3
@@ -118,16 +118,6 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 199);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1039, 364);
-            this.dataGridView1.TabIndex = 8;
             // 
             // btAddtenant
             // 
@@ -175,6 +165,18 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "Month";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(13, 199);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(1039, 364);
+            this.dataGridView1.TabIndex = 8;
+            // 
             // FrmTenantRecord2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -195,6 +197,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "FrmTenantRecord2";
             this.Text = "FrmTenantRecord2";
+            this.Load += new System.EventHandler(this.FrmTenantRecord2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -214,10 +217,10 @@
         private System.Windows.Forms.ComboBox cbFilter;
         private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btAddtenant;
         private System.Windows.Forms.Button btPrevious;
         private System.Windows.Forms.Button btNext;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
