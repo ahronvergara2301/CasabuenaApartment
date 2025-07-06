@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace CasabuenaApartment
 {
-    public partial class Form2 : Form
+    public partial class frmRentPayments : Form
     {
-        public Form2()
+        public frmRentPayments()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void frmRentPayments_Load(object sender, EventArgs e)
         {
 
         }
