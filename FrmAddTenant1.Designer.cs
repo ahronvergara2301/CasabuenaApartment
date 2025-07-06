@@ -80,6 +80,7 @@
             this.label27 = new System.Windows.Forms.Label();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label28 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -88,6 +89,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(151)))), ((int)(((byte)(230)))));
+            this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(1, 0);
             this.panel1.Name = "panel1";
@@ -558,6 +560,18 @@
             this.label28.TabIndex = 51;
             this.label28.Text = "Tenant Monthly Rent : ₱0.00";
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(151)))), ((int)(((byte)(230)))));
+            this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(809, 12);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(165, 42);
+            this.button5.TabIndex = 52;
+            this.button5.Text = "Archive";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // FrmAddTenant1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -678,5 +692,6 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Button button5;
     }
 }

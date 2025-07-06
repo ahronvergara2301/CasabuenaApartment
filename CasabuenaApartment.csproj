@@ -110,6 +110,18 @@
     <Compile Include="FrmAddTenant1.Designer.cs">
       <DependentUpon>FrmAddTenant1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmArchive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmArchive.Designer.cs">
+      <DependentUpon>FrmArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmArchiveTenant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmArchiveTenant.Designer.cs">
+      <DependentUpon>FrmArchiveTenant.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTenantRecord.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +147,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAddTenant1.resx">
       <DependentUpon>FrmAddTenant1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmArchive.resx">
+      <DependentUpon>FrmArchive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmArchiveTenant.resx">
+      <DependentUpon>FrmArchiveTenant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTenantRecord.resx">
       <DependentUpon>frmTenantRecord.cs</DependentUpon>
