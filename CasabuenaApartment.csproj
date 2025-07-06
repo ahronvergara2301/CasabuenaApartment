@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,28 +58,30 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRentPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRentPayments.Designer.cs">
+      <DependentUpon>frmRentPayments.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTenantRecord.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmTenantRecord.Designer.cs">
       <DependentUpon>frmTenantRecord.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmTenantRecord2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmTenantRecord2.Designer.cs">
-      <DependentUpon>FrmTenantRecord2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRentPayments.resx">
+      <DependentUpon>frmRentPayments.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmTenantRecord.resx">
       <DependentUpon>frmTenantRecord.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmTenantRecord2.resx">
-      <DependentUpon>FrmTenantRecord2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

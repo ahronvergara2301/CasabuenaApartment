@@ -16,7 +16,6 @@ namespace CasabuenaApartment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmTenantRecord2());
         }
     }
 }
