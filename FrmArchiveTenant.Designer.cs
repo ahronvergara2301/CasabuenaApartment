@@ -45,6 +45,7 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btNext = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -92,12 +93,13 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(21, 359);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1121, 248);
+            this.dataGridView1.Size = new System.Drawing.Size(1121, 208);
             this.dataGridView1.TabIndex = 6;
             // 
             // label3
@@ -219,11 +221,24 @@
             this.button2.Text = "Open";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // btNext
+            // 
+            this.btNext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(151)))), ((int)(((byte)(230)))));
+            this.btNext.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btNext.ForeColor = System.Drawing.Color.White;
+            this.btNext.Location = new System.Drawing.Point(1011, 573);
+            this.btNext.Name = "btNext";
+            this.btNext.Size = new System.Drawing.Size(131, 47);
+            this.btNext.TabIndex = 35;
+            this.btNext.Text = "Edit";
+            this.btNext.UseVisualStyleBackColor = false;
+            // 
             // FrmArchiveTenant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1154, 619);
+            this.Controls.Add(this.btNext);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox10);
@@ -271,5 +286,6 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btNext;
     }
 }
