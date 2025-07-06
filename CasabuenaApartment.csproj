@@ -70,11 +70,6 @@
     <Compile Include="frmTenantRecord.Designer.cs">
       <DependentUpon>frmTenantRecord.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUtilityBills.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmUtilityBills.Designer.cs">
-      <DependentUpon>frmUtilityBills.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,8 +82,6 @@
     <EmbeddedResource Include="frmTenantRecord.resx">
       <DependentUpon>frmTenantRecord.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUtilityBills.resx">
-      <DependentUpon>frmUtilityBills.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -98,6 +91,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -111,6 +105,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picmagic_1751541131310.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\513072068_3732121123753107_1732665633413870218_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letter C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maintenanc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picmagic_17515411313101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file maintenance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
